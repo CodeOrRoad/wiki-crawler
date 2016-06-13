@@ -72,9 +72,9 @@ module.exports = {
 					parser.write(body)
 					parser.end()
 					resolve({type: 'search', reults: results})
-				}else if(res.statusCode == 302){
+				}else if(res.statusCode == 302){	
 					var page = res.headers.location
-					request.get(page, (err, res, body) => {
+					request.get(page, (err, res, body) => {		
 						if(res.statusCode == 200){
 							var content = {
 								type: 'page',
