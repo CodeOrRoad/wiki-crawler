@@ -1,0 +1,23 @@
+{
+  "name": "wiki-crawler",
+  "version": "0.7.3",
+  "description": "A search and crawler for Wikipedia articles",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeOrRoad/wiki-crawler.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "crawler"
+  ],
+  "author": "Pramod Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeOrRoad/wiki-crawler/issues"
+  },
+  "homepage": "https://github.com/CodeOrRoad/wiki-crawler#readme"
+}
