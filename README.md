@@ -21,3 +21,6 @@ data contains following information
 + `title`: if the result is page, it contains title
 + `description`: if the result is page, it contains description
 + `results`: if the result is search result, it contains all the results(array). Each item does have `title` and `description` inturn
+
+### License
+`MIT`
