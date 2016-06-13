@@ -10,7 +10,7 @@ npm install wiki-crawler
 This is very simple library. Just initiate it and use `crawl` function. It returns promise back
 
 ```javascript
-var crawler = require('../index.js')
+var crawler = require('wiki-crawler')
 crawler.crawl(string.search).then((data) => {
 	// data contains the result
 })
