@@ -95,7 +95,7 @@ module.exports = {
 										flag.title = true
 									}else if(name=='div' && attribs.class=='mw-body-content'){
 										flag.self = true
-									}else if(flag.self && name=='p' && flag.depth===2){
+									}else if(flag.self && name=='p' && flag.depth===3){
 										if(flag.p_count < 3){
 											flag.description = true
 											flag.p_count++
